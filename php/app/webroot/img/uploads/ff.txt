@@ -1,0 +1,30 @@
+input: Todos los paquetes destinados a este sistema atraviesan esta cadena
+
+output: Todos los paquetes creados por este sistema atraviesan esta cadena
+
+forward: Todos los paquetes que pasan por este sistema para ser encaminados a su destino recorren esta cadena
+
+
+
+ACCEPT: Este destino hace que netfilter acepte el paquete.
+
+
+DROP: Este destino hace que netfilter descarte el paquete sin ningún otro tipo de procesamiento.
+
+NEW (nuevo) Intentando crear una conexión nueva.
+
+ESTABLISHED (establecido) Parte de una conexión ya existente.
+
+RELATED (relacionado) Relacionada, aunque no realmente parte de una conexión existente.
+
+INVALID (inválido) No es parte de una conexión existente e incapaz de crear una conexión nueva.
+
+
+
+-J : Especifica el destino de una regla.
+
+
+-P	Modifica la acción por defecto de la cadena preseleccionada.
+
+
+-A	Agregar nueva regla a la cadena especificada.
